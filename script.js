@@ -5,7 +5,7 @@ let employees = [];
 const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
   let repeat = true
-  // While loop
+  // While loop for employees
   while (repeat){
     let firstName = prompt ("First Name") 
     let lastName = prompt ("Last Name");
@@ -26,11 +26,14 @@ const collectEmployees = function() {
 
 // Display the average salary
 function displayAverageSalary (employeesArray) {
-  // TODO: Calculate and display the average salary
-let displayAverageSalary = 0
-for (let i = 0; i < employeesArray.length; i++);
-  // consolelog("displayAverageSalary");
+  let totalSalary = 0;
+  for (let i = 0; i < employeesArray.length; i++) {
+    totalSalary += employeesArray[i].salary;
+  }
+  const averageSalary = totalSalary / employeesArray.length;
+  console.log("Average Salary:", averageSalary);
 }
+
 
 
 // Select a random employee
