@@ -5,7 +5,7 @@ let employees = [];
 const collectEmployees = function() {
   // TODO: Get user input to create and return an array of employee objects
   let repeat = true
-  // While loop for employees
+  // While loop for employees(MDN Search/while is another form of loop)
   while (repeat){
     let firstName = prompt ("First Name") 
     let lastName = prompt ("Last Name");
