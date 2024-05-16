@@ -7,18 +7,22 @@ const collectEmployees = function() {
   // for (let i = 0; i < numberOfEmployees; i++) {
   let employees = [];
   let firstName = prompt ("First Name");
-  let lastName = prompt ("Last Name")
-  let salary = prompt ("Salary")
+  let lastName = prompt ("Last Name");
+  let salary = prompt ("Salary");
+  let collectEmployees = prompt ("Add New Employee");
   console.log(answer); 
-  // }
-}
+  }
 
+  
 
 
 
 // Display the average salary
 const displayAverageSalary = function(employeesArray) {
   // TODO: Calculate and display the average salary
+let displayAverageSalary = 0
+for (let i = 0; i < employeesArray.length; i++);
+  consolelog("displayAverageSalary")
 }
 
 
@@ -27,7 +31,7 @@ const getRandomEmployee = function(employeesArray) {
   // TODO: Select and display a random employee
   let randomEmployee = employeesArray[randomIndex];
   console.log("Random Employee:");
-  console.log(randomEmployee);
+  // console.log(randomEmployee);
 }
 
 /*
